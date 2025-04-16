@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100svw;
+    height: 100svh;
+    background-color: #8ca8c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contaner {
+    border: solid 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+td {
+    background-color: #fff;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+	font-size: 2em;
+}
