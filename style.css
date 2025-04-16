@@ -36,3 +36,20 @@ td, th {
     padding: 10px;
 	font-size: 2em;
 }
+
+#controls-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.btn {
+    all: unset;
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+}
